@@ -1,3 +1,7 @@
+## 1.0.0
+
+ - Official release
+
 ## 0.0.2
 
  - Updated README.md
