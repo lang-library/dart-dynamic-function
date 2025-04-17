@@ -3,7 +3,7 @@ import 'package:dynamic_function/dynamic_function.dart';
 
 final dynamic sum = DynamicFunction((
   List<dynamic> positional,
-  Map<Symbol, dynamic> $named,
+  Map<Symbol, dynamic> named,
 ) {
   print('positional.length=${positional.length}');
   int result = 0;
