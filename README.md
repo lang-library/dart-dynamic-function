@@ -13,7 +13,7 @@ environment:
   sdk: ^3.7.2
 
 dependencies:
-  dynamic_function: ^0.0.1
+  dynamic_function: ^1.0.1
 
 dev_dependencies:
 ```
