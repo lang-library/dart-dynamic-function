@@ -20,7 +20,7 @@ class MyNumber {
 
   late final dynamic addNumbers = DynamicFunction((
     List<dynamic> positional,
-    Map<Symbol, dynamic> $named,
+    Map<Symbol, dynamic> named,
   ) {
     print('positional.length=${positional.length}');
     int result = _num;
