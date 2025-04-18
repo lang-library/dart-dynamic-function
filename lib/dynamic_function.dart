@@ -12,11 +12,11 @@ class DynamicFunction {
   DynamicFunction(this.$$function);
 
   @override
-  dynamic noSuchMethod(Invocation $invocation) {
-    if ($invocation.isMethod && $invocation.memberName == const Symbol('call')) {
+  dynamic noSuchMethod(Invocation invocation) {
+    if (invocation.isMethod && invocation.memberName == const Symbol('call')) {
       return $$function(
-        $invocation.positionalArguments,
-        $invocation.namedArguments,
+        invocation.positionalArguments,
+        invocation.namedArguments,
       );
     }
     return null;
