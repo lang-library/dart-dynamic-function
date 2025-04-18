@@ -1,6 +1,10 @@
+## 1.0.2
+
+- Added: checkNamed()
+
 ## 1.0.1
 
- - Updated README.md
+- Updated README.md
 
 ## 1.0.0
 

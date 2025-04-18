@@ -1,6 +1,6 @@
 name: dynamic_function
 description: "dynamic_function package project"
-version: 1.0.1
+version: 1.0.2
 homepage:
 repository: https://github.com/lang-library/dart-dynamic-function
 
@@ -8,7 +8,8 @@ environment:
   sdk: ^3.7.2
 
 dependencies:
+  output: ^1.0.0
 
 dev_dependencies:
-  lints: ^5.0.0
+  lints: ^5.1.1
   test: ^1.25.15
